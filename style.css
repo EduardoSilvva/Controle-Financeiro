@@ -9,6 +9,7 @@
 }
 
 body {
+  max-width: 500%;
   background-image: url(https://brain4finance.com.br/wp-content/uploads/2019/11/finan%C3%A7as-pessoais-4-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,18 +18,25 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
 
 .container {
-  background-color: #f7f7f7;
+  color: aliceblue;
+  background-color: #020202c5;
+  font-family:'Times New Roman', Times, serif;
   opacity: 90%;
-  padding: 17px;
+  padding: 20px;
   margin: 30px auto;
-  width: 410px;
+  width: 400px;
+}
+
+.valores {
+  color: #333;
+  font-family:'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -45,8 +53,9 @@ h2 {
   border: 1px solid;
   padding: 25px;
   width: 50%;
+  opacity: 90%;
   color: #fff !important;
-    background: #386161d8;
+    background: #020202c5;
     transition: all .3s linear;
 }
 
@@ -62,7 +71,7 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-color: aliceblue;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
