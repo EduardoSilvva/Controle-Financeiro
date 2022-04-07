@@ -11,6 +11,7 @@
 body {
   max-width: 500%;
   background-image: url(https://brain4finance.com.br/wp-content/uploads/2019/11/finan%C3%A7as-pessoais-4-1.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #f7f7f7;
@@ -18,7 +19,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  padding: 25px;
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -29,9 +30,9 @@ body {
   background-color: #020202c5;
   font-family:'Times New Roman', Times, serif;
   opacity: 90%;
-  padding: 20px;
-  margin: 30px auto;
-  width: 400px;
+  padding: 30px;
+  margin: 5px auto;
+  width: 430px;
 }
 
 .valores {
@@ -51,8 +52,8 @@ h2 {
   font-size: 30px;
   text-align: center;
   border: 1px solid;
-  padding: 25px;
-  width: 50%;
+  padding: 20px;
+  width: 45%;
   opacity: 90%;
   color: #fff !important;
     background: #020202c5;
