@@ -30,9 +30,9 @@ body {
   background-color: #020202c5;
   font-family:'Times New Roman', Times, serif;
   opacity: 90%;
-  padding: 30px;
-  margin: 5px auto;
+  padding: 0px 30px;
   width: 430px;
+  font-size: 18px;
 }
 
 .valores {
@@ -50,14 +50,12 @@ h2 {
   font-family:'Times New Roman', Times, serif;
   text-transform: uppercase;
   font-size: 30px;
-  text-align: center;
-  border: 1px solid;
   padding: 20px;
-  width: 45%;
+  width: 100%;
+  text-decoration: underline;
   opacity: 90%;
   color: #fff !important;
-    background: #020202c5;
-    transition: all .3s linear;
+    
 }
 
 h3 {
