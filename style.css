@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 :root {
+  --darker: #1F2937;
+  --dark: #374151;
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -10,16 +12,12 @@
 
 body {
   max-width: 500%;
-  background-image: url(https://brain4finance.com.br/wp-content/uploads/2019/11/finan%C3%A7as-pessoais-4-1.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #f7f7f7;
+  background-color: var(--darker);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 40px;
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -27,11 +25,11 @@ body {
 
 .container {
   color: aliceblue;
-  background-color: #020202c5;
+  background-color: var(--dark);
   font-family:'Times New Roman', Times, serif;
   opacity: 90%;
   padding: 0px 30px;
-  width: 430px;
+  width: 500px;
   font-size: 18px;
 }
 
@@ -43,7 +41,7 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
-  color: #2e75cc;
+  color: #348bf5;
 }
 
 h2 {
